@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Insert SVG",
+      "script": "./my-command.js",
+      "handler" : "onRun",
+      "shortcut" : "command shift alt i",
+      "identifier" : "insert-svg",
+      "description" : "Insert SVG to Artboard."
+    }
+  ],
+  "menu": {
+    "title": "Svgcode",
+    "items": [
+      "insert-svg"
+    ]
+  }
+}
