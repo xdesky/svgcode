@@ -1,7 +1,7 @@
 {
   "name": "pastesvg",
   "description": "Plugin Copy Paste SVG to Sketch App",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "engines": {
     "sketch": ">=49.0"
   },
